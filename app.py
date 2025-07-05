@@ -9,7 +9,7 @@ scaler = joblib.load('scaler.pkl')
 
 
 time_mapping = {'Early_Morning': 0, 'Morning': 1, 'Afternoon': 2, 'Evening': 3, 'Night': 4, 'Late_Night': 5}
-day_mapping = {'Monday': 0, 'Tuesday': 1, 'W`ednesday': 2, 'Thursday': 3, 'Friday': 4, 'Saturday': 5, 'Sunday':6}
+day_mapping = {'Monday': 0, 'Tuesday': 1, 'Wednesday': 2, 'Thursday': 3, 'Friday': 4, 'Saturday': 5, 'Sunday':6}
 stops_mapping = {'zero': 0, 'one': 1, 'two_or_more': 2}
 class_mapping = {'Economy': 0, 'Business': 1}
 
